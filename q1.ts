@@ -3,7 +3,7 @@ function typeChecker(a:any,b:any) {
     if (typeof a === 'string') {
       return "I LOVE YOU";
     }else if (typeof a === "number") {
-      return `${a+b}`;
+      return a+b;
     }
   }else{
     return "NOT MATCHED";
