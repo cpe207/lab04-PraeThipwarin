@@ -4,7 +4,7 @@ function typeChecker(a, b) {
             return "I LOVE YOU";
         }
         else if (typeof a === "number") {
-            return "".concat(a + b);
+            return `${a+b}`;
         }
     }
     else {
@@ -14,7 +14,7 @@ function typeChecker(a, b) {
 //Test cases
 var a1 = "Jack";
 var b1 = "Rose";
-var a2 = -555;
+var a2 = 555;
 var b2 = 100;
 var a3 = "Jack";
 var b3 = 100;
